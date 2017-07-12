@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Hello World
 
-You can use the [editor on GitHub](https://github.com/naliferopoulos/ThinkingInBinary/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+geek@github:~$ sudo useradd -d /home/thinkinginbinary -m thinkinginbinary
+geek@github:~$ sudo passwd thinkinginbinary
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### And then there was light!
 
-### Jekyll Themes
+Just like a newborn unix system user this page was just born. The plan, on which I'll never stick to, is to collect thoughts, tips and tricks about penetration testing, security and programming. Or not.
+```
+geek@github:~$ whoami
+```
+I could do this all day but I should probably stop now. Anyways, who am I? A fine mixture of alcohol, nicotine and messy thoughts, I spend most of my time in front of a terminal. I like security and I love challenges so I declared myself a penetration tester.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/naliferopoulos/ThinkingInBinary/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I also work as a Level 1 SOC analyst in a Cyber Security firm. There will ** probably ** be more posts regarding my day job. That's right I said day job. By night I'm a vigilante hacker ** cough ** ** cough **. No, just kidding, I just enjoy playing hacking challenges. You can find me on Hack The Box, providing my self-description is accurate enought for you to guess my username.
