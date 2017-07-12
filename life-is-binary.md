@@ -1,6 +1,6 @@
 ## Life is binary
 
-Have you ever thought about why the number *two* is so important? Why we keep referring to it? I think it is important because it is the smallest element count of a set that can represent **choice**. Think about a power switch. The switch has two states, ON and OFF. If it only had one state there would be no choice. If it had more, like {ON, ALMOST_ONT, OFF}, it would still be a valid representation of choice, but with three outcomes. 
+Have you ever thought about why the number *two* is so important? Why we keep referring to it? I think it is important because it is the smallest element count of a set that can represent **choice**. Think about a power switch. The switch has two states, ON and OFF. If it only had one state there would be no choice. If it had more, like {ON, ALMOST_ON, OFF}, it would still be a valid representation of choice, but with three outcomes. 
 
 Considering that, I like to think that life, the world around us, god or whatever, the whole realm of existance, is *binary*. It might not seem that obvious at first but let us examine three scenarios of choices.
 
