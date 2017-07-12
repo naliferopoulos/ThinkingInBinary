@@ -15,3 +15,5 @@ Now let's try representing the states of a choice of one color from the infinite
 
 ### Epilogue
 Given those three scenarios, one could say that any choice in life *can* be represented by a "chain of binary choices". If you managed to get through this, you can now go around saying to people that life is binary, because really, who's to say it isn't?
+
+[Back](https://naliferopoulos.github.io/ThinkingInBinary/)
