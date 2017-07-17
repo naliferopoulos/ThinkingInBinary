@@ -32,7 +32,7 @@ A couple of days later, Lana's father gets a call by her teacher. She tells him 
 
 ### Someone you're not
 
-Time goes by, and Lana's dad is trying to find her a new Mum. After all, it's been 3 years since the break up. When he finally meets a new lady, he is confronted with the first problem of their relationship: *How* do they tell Lana? After brainstorming on the matter for a bit, he comes up with a solution. A solution which, without him realizing, utilizes the third principle of hacking people; *pretending to be someone you are not*. He tells Lana that his date is not in fact a date, but a colleague hoping that he will find a way to ease her in on the situation.
+Time goes by, and Lana's dad is trying to find her a new mum. After all, it's been 3 years since the break up. When he finally meets a new lady, he is confronted with the first problem of their relationship: *How* do they tell Lana? After brainstorming on the matter for a bit, he comes up with a solution. A solution which, without him realizing, utilizes the third principle of hacking people; *pretending to be someone you are not*. He tells Lana that his date is not in fact a date, but a colleague hoping that he will find a way to ease her in on the situation.
 
 ### Punchline
 
