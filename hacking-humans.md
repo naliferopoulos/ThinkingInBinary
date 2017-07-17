@@ -18,7 +18,7 @@ Imagine a man and his daughter, say she's called Lana. Now little Lana wants ice
 
 She's only 10 years old and she's already got a good grasp of what her dad wants to hear. Now that is one clever way of influencing people; *promising or telling them what they want to hear*.
 
-### What the don't
+### What they don't
 
 A couple of days later, Lana's father gets a call by her teacher. She tells him that Lana skipped school the other day, making him furious. When Lana gets home he sits her on the couch and unravels another clever argument, *telling people what the do not want to hear*.
 
