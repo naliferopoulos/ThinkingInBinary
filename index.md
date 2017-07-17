@@ -18,7 +18,7 @@ I also work as a Level 1 SOC analyst in a Cyber Security firm. There will *proba
 ### Posts, articles or whatever you want to call them
 [Life is binary](https://naliferopoulos.github.io/ThinkingInBinary/life-is-binary)
 
-[After Dark: Hacking Humans](https://naliferopoulos.github.io/ThinkingInBinary/hacking-humans)
+[After Hours: Hacking Humans](https://naliferopoulos.github.io/ThinkingInBinary/hacking-humans)
 
 ### Disclaimer
 ThinkingInBinary is a shameless rip-off of [Securosophy](https://securosophy.com). I'm only hoping you are here because you ran out of content on John's blog.
