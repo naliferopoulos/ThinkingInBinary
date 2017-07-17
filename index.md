@@ -17,6 +17,7 @@ I also work as a Level 1 SOC analyst in a Cyber Security firm. There will *proba
 
 ### Posts, articles or whatever you want to call them
 [Life is binary](https://naliferopoulos.github.io/ThinkingInBinary/life-is-binary)
+
 [After Dark: Hacking Humans](https://naliferopoulos.github.io/ThinkingInBinary/hacking-humans)
 
 ### Disclaimer
