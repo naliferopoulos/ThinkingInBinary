@@ -33,12 +33,14 @@ This can be a very good means of exploiting the issue above. If we provide an *i
 
 But what placeholders can we resolve? As I was looking into this, I identified that the default resolution mechanism for property placeholders is JVM System Properties. That means that we can try resolving System Properties from Camel's Java Context. The one I happen to know of, off the top of my head, is *java.version*, which I immediatelly tried out.
 
+{% raw %}
 ```
 GET /lookup-user.php?id=3816/../?var={{java.version}}&x= HTTP/1.1
 Host: victim.com
 Connection: close
 
 ```
+{% endraw %}
 
 Let us break this payload appart. The parameter we supplied is *3816/../?var=\{\{java.version}}&x=*
 
@@ -109,9 +111,11 @@ And I found a way to do that, a pretty educated one if you ask me, because it or
 
 I intentionally caused an exception, that I knew contained part of what I intended to leak, right at the very start. The one and only, *NumberFormatException*! Camel supports a URI parameter that is aptly named *okStatusCodeRange*, which parses a String in the format [Number]-[Number] to define a range of response status codes that are considered "OK", hence "no error". And that solved our problem a bit.
 
+{% raw %}
 ```
 3816/../?okStatusCodeRange=1-{{env: HOME}}
 ```
+{% endraw %}
 
 There it is again, that poor man's home directory, sitting happily in our butchered stack trace. And it felt like a win. A small one, indeed, but still a win. And then I figured out something simpler, a way to leak the same info we leaked with *okStatusCodeRange* but without being such an ugly hack. 
 
@@ -121,9 +125,11 @@ There it is again, that poor man's home directory, sitting happily in our butche
 
 The beautification process was not required, at all, but it looks nicer in a report, and it also teaches me stuff about the platform, so I went ahead and gave my new, fresh idea a shot. If you liked the usage of property placeholders above, you're gonna love this one.
 
+{% raw %}
 ```
 3816/../?{{{{env: HOME}}}}
 ```
+{% endraw %}
 
 That's it, hax! HOME is resolved by the inner property placeholder through the environment, let's say to the value */home/web*. That value is then attempted to be resolved by the outter property placeholder, but in vain, and Camel happily reports back an error along the lines of "Could not resolve property placeholder */home/web*". 
 
@@ -133,15 +139,19 @@ BOOM! That's nice! But wait, why does PATH not work?
 
 ### Deceived by the colon
 
+{% raw %}
 ```
 3816/../?{{{{env: PATH}}}}
 ```
+{% endraw %}
 
 The above yields a different output, only a small part of the variable's value. After scratching my head for a bit, I noticed the flaw in our minified payload. The colon. The colon in property placeholders is used after a placeholder to define an alternative, fallback value in case the placeholder is not successfully resolved, and the syntax looks a bit like this:
 
+{% raw %}
 ```
 {{mysettings.mynumber:2}}
 ```
+{% endraw %}
 
 For Camel this means fetch *mysettings.mynumber*, or whatever man, just give him *2* if it doesn't work. Now do you see the problem? A typical path looks like this:
 
@@ -151,9 +161,11 @@ For Camel this means fetch *mysettings.mynumber*, or whatever man, just give him
 
 There's the colon again, this time used as a separator. Now the reason it breaks our leaking of PATH, is because of the way the following will be resolved by Camel.
 
+{% raw %}
 ```
 {{{{env: PATH}}}}
 ```
+{% endraw %}
 
 First, the inner property placeholder will be resolved, and replaced with its value, then the second pass happens which will attempt to resolve this:
 
