@@ -20,5 +20,7 @@ I also work as a ~~Level 1 SOC analyst~~ Penetration Tester in a Cyber Security 
 
 [After Hours: Hacking Humans](https://naliferopoulos.github.io/ThinkingInBinary/hacking-humans)
 
+[URLs are Dangerous](https://naliferopoulos.github.io/ThinkingInBinary/urls-are-dangerous)
+
 ### Disclaimer
 ThinkingInBinary is a shameless rip-off of [Securosophy](https://securosophy.com). I'm only hoping you are here because you ran out of content on John's blog.
