@@ -169,9 +169,11 @@ There's the colon again, this time used as a separator. Now the reason it breaks
 
 First, the inner property placeholder will be resolved, and replaced with its value, then the second pass happens which will attempt to resolve this:
 
+{% raw %}
 ```
 {{/bin:/usr/bin:/usr/sbin:/sbin}}
 ```
+{% endraw %}
 
 Obviously Camel will not be able to resolve */bin* and will return */usr/bin:/usr/sbin:/sbin* back to us, as a fallback value, due to that colon. Not so bad, but we still compromise a little bit of our hard-earned info leak.
 
