@@ -26,7 +26,7 @@ However, the validity of the *id* parameter is never checked, it is directly fed
 
 
 
-### {{Property Placeholders}}
+### \{\{Property Placeholders}}
 Camel supports a feature called property placeholders. This feature matches certain placeholders in endpoints defined in Camel (URIs, what we've been feeding it above), and replaces the placeholder with an actual value.
 
 This can be a very good means of exploiting the issue above. If we provide an *id* parameter, which contains a placeholder, and force an error so that the stack trace is returned to us, we can observe the URI that Camel could not correctly hit (hence the stack trace), but with property placeholders resolved.
