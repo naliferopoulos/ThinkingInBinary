@@ -163,4 +163,4 @@ Accept-Ranges: bytes
 
 There it is, we just got the flag using more web stuff than pwning stuff! I know that's a broad definition of what "web stuff" and "pwning stuff" is, but I contacted the DEFCON team afterwards and they informed me that this was not the inteded solution. 
 
-Considering this, I would far more have loved to actually pwn the challenge, as it is 400pts DEFCON Quals one, but nonetheless, the hax were for once *pretty-cool-hax™*.
+Considering this, I would far more have loved to actually pwn the challenge, as it is a 400pts DEFCON Quals one, but nonetheless, the hax were for once *pretty-cool-hax™*.
