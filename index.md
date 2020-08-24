@@ -26,5 +26,7 @@ I also work as a ~~Level 1 SOC analyst~~ Penetration Tester in a Cyber Security 
 
 [After Hours: Observations on the Common way of Living](https://naliferopoulos.github.io/ThinkingInBinary/observations-on-the-common-way-of-living)
 
+[Pwning a DEFCON Quals binary without pwning it](https://naliferopoulos.github.io/ThinkingInBinary/pwning-a-defcon-quals-binary-without-pwning-it.md)
+
 ### Disclaimer
 ThinkingInBinary is a shameless rip-off of [Securosophy](https://securosophy.com). I'm only hoping you are here because you ran out of content on John's blog. Now, in case you can read Greek, John also writes content on [Makaronia](https://makaronia.me).
