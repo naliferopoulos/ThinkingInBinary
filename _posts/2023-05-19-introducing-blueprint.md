@@ -27,9 +27,11 @@ Blueprint is a `python3` source-code level modular templating solution based on 
 
 Blueprint extends the classic Jinja syntax and offers modularity through the use of `filters`. Filters, functionality native to Jinja, are essentially python-backed functions that receive input which they operate on and return the output. They can be called in the Jinja context in the form of pipelines, which are evaluated to the final outputs. An example is as follows:
 
+{% raw %}
 ```jinja
 {{ "Example" | filter1 | filter2 }}
 ```
+{% endraw %}
 
 Here, the expression inside the double braces will be evaluated as the equivalent of the following python snippet:
 
