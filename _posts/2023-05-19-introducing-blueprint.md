@@ -75,16 +75,16 @@ The author of the template can use these modules as a language-agnostic build-ti
 
 // Let us define a C array of bytes to hold the AES encryption key.
 // Notice the Blueprint templating which will evaluate to the value of the variable AES_KEY as a hex-array.
-unsigned char key[] = { {{ AES_KEY | hexarr }}} ;
+unsigned char key[] = { \{\{ AES_KEY | hexarr \}\} } ;
 
 // Same process, but for the encryption IV this time.
-unsigned char iv[] = { {{ AES_IV | hexarr } }}
+unsigned char iv[] = { \{\{ AES_IV | hexarr \}\} }
 
 // Now for the actual shellcode, let us:
 // - Retrieve the contents of payload.bin 
 // - Encrypt it with the aes module (Random key and IV will be generated and output to AES_KEY and AES_IV respectively)
 // - Represent it as a hex-array
-unsigned char payload = { {{ "payload.bin" | content | aes | hexarr }} }
+unsigned char payload = { \{\{ "payload.bin" | content | aes | hexarr \}\} }
 ```
 
 Notice how this is not constrained to a certain compiler, let alone a specific language or context. This can be used in any source code file and can of course be extended at will.
@@ -121,7 +121,7 @@ Another cool side-effect of templating is that you can provide an abstract inter
 
 ```c
 {% for process_name in INJECT_TO_PROCESSES %}
-unsigned char proc_{{ loop.index }}_str[] = { {{ process_name | xor | hexarr }} };
+unsigned char proc_\{\{ loop.index \}\}_str[] = { \{\{ process_name | xor | hexarr \}\} };
 {% endfor %}
 ```
 
