@@ -92,7 +92,7 @@ If we investigate a bit, we can has even MOAR power.
 
 All your ~~base~~ System Properties are belong to *us*!
 
-But that is not enough. We got some secrets, leaked some platform/arch info, but all is Java-related, and guess what. I fucking hate Java. Now Linux on the other hand, I love.
+But that is not enough. We got some secrets, leaked some platform/arch info, but all is Java-related, and do not involve the underlying OS.
 
 Digging a little more into Property Placeholders, I found out that they can fetch values from environment variables of the underlying system, if you prefix them with *env:*. That brings us the following list:
 
