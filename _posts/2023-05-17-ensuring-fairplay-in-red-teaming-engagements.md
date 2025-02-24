@@ -1,5 +1,5 @@
 ---
-title: "Introducing Fairplay"
+title: "Ensuring Fairplay in Red Teaming engagements"
 categories:
   - Blog
 tags:
