@@ -1,6 +1,7 @@
 ## Symbolicating stripped ELF files manually
 
 Let's face the truth, debugging and pwning stripped ELFs is a tedious process. The lack of symbols means that we need to type a lot of addresses manually, which is error prone and a hassle. Wouldn't it be nice if we could add some custom symbols on the binary? Researching the process didn't yield the resources I expected, so here I am writing a guide.
+
 ### Generating a test file
 
 Our first step would be to generate a test file.
