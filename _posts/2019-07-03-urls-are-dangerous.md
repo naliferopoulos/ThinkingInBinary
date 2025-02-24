@@ -1,10 +1,16 @@
-## URLs are dangerous
+---
+title: "URLs are dangerous!"
+categories:
+  - Blog
+tags:
+  - Post Formats
+  - readability
+  - standard
+---
 
 Freaking finally. It was about time! The first technical security post around here, and to be honest, the first post in a long time. I won't bore you with a bunch of excuses as to why I haven't been creating content, I'll get straight to the point.
 
 URLs are dangerous! Especially if you pass them through software that processes them.
-
-
 
 ### Apache Camel
 If you have never heard of Apache Camel I don't blame you. I only quite recently found out about it myself. I could have a go at explaining what it is, but they didn't even go through the trouble themselves. Υou see, their about page links to [Stack Overflow](https://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel) for an explanation of what it does.
@@ -200,5 +206,3 @@ In theory, this would cause Camel to attempt to authenticate to us, happily send
 Camel seems neat. Please watch out what you feed to it, not because it doesn't work correctly, but because it does.
 
 That's all folks, thanks for reading!
-
-[Back](https://naliferopoulos.github.io/ThinkingInBinary/)

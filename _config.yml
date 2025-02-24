@@ -1,1 +1,93 @@
-theme: jekyll-theme-midnight
+title: ThinkingInBinary
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal blog of Nick Aliferopoulos. Cyber Security, Red Teaming, 
+  Malware Development & Reverse Engineering artciles.
+twitter_username: naliferopoulos
+github_username: naliferopoulos
+minimal_mistakes_skin: neon
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/Athens
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Nick Aliferopoulos"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Malware and offensive tooling for the [Hackcraft](https://hackcraft.gr) Red Team. Mostly occupied with low-level code and reverse engineering."
+  links:
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://naliferopoulos.github.io/ThinkingInBinary/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/naliferopoulos"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/naliferopoulos"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/naliferopoulos"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/naliferopoulos"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
