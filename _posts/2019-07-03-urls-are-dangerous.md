@@ -3,9 +3,10 @@ title: "URLs are dangerous!"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Apache Camel
+  - Web Application Cybersecurity Testing
+  - Research
+  - Exploitation
 ---
 
 Freaking finally. It was about time! The first technical security post around here, and to be honest, the first post in a long time. I won't bore you with a bunch of excuses as to why I haven't been creating content, I'll get straight to the point.

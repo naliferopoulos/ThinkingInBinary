@@ -3,9 +3,8 @@ title: "Pwning a DEFCON Quals binary without pwning it"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Pwning
+  - Exploitation
 ---
 
 Story time, before getting to the write up. I played the pwnables of DEFCON Quals 2020, mainly because it's very fun, and also because I wanted to see what the content would look like, given the remote nature of the contest.
