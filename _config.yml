@@ -44,7 +44,7 @@ plugins:
 author:
   name   : "Nick Aliferopoulos"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Malware and offensive tooling for the [Hackcraft](https://hackcraft.gr) Red Team. Mostly occupied with low-level code and reverse engineering."
+  bio    : "Malware and offensive tooling developer for the [Hackcraft](https://hackcraft.gr) Red Team. Mostly occupied with low-level code and reverse engineering."
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
